@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{7B96
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{7DD51DE4-7E8B-4AD3-A7D9-DDEBAA56724B}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C9695C4-E9F0-48DF-909D-BBB3B6016727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{ACE111FC-36F8-484C-8949-79F3BE44B941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{33880F5A-1C03-4264-9737-4245A751C86B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,14 @@ Global
 		{7DD51DE4-7E8B-4AD3-A7D9-DDEBAA56724B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD51DE4-7E8B-4AD3-A7D9-DDEBAA56724B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD51DE4-7E8B-4AD3-A7D9-DDEBAA56724B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9695C4-E9F0-48DF-909D-BBB3B6016727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9695C4-E9F0-48DF-909D-BBB3B6016727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9695C4-E9F0-48DF-909D-BBB3B6016727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9695C4-E9F0-48DF-909D-BBB3B6016727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33880F5A-1C03-4264-9737-4245A751C86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33880F5A-1C03-4264-9737-4245A751C86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33880F5A-1C03-4264-9737-4245A751C86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33880F5A-1C03-4264-9737-4245A751C86B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7B960209-45A9-4402-820F-0958908ED9DB} = {5A9327AB-584B-4704-9517-002B3E7E398C}
 		{7DD51DE4-7E8B-4AD3-A7D9-DDEBAA56724B} = {7B960209-45A9-4402-820F-0958908ED9DB}
+		{ACE111FC-36F8-484C-8949-79F3BE44B941} = {5A9327AB-584B-4704-9517-002B3E7E398C}
+		{33880F5A-1C03-4264-9737-4245A751C86B} = {ACE111FC-36F8-484C-8949-79F3BE44B941}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAB0E56E-B566-4842-9FEB-2ADA915106CA}
